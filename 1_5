@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main()
+{
+	int n;	
+	std::cin >> n;
+	
+	int sq=0;
+	for (int k = 1; k < n + n; k += 2 ) 
+	{
+		sq += k;
+		std::cout << sq << " ";
+	}
+	
+	return 0;
+}
